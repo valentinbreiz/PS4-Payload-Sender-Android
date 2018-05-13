@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="valentinbreiz.ps4payloadsender.Connection">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_vertical|center_horizontal"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 1: Connection"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IP Address"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="43dp" />
+
+            <EditText
+                android:id="@+id/IPAddressTextBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="60dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Port"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="103dp" />
+
+            <EditText
+                android:id="@+id/PortTextBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="9020"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="120dp" />
+
+            <Button
+                android:id="@+id/ConnectBtn"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:onClick="Connect"
+                android:text="Connect"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="163dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="43dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 2: Load Payload"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="227dp" />
+
+            <Button
+                android:id="@+id/BrowsePayloadBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Browse"
+                android:text="Browse Payload"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="260dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="43dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 3: Send Payload"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="337dp" />
+
+            <Button
+                android:id="@+id/SendPayloadBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Send"
+                android:text="Send Payload"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="371dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:orientation="vertical"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:layout_editor_absoluteY="412dp">
+
+                <TextView
+                    android:id="@+id/InjectingLbl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Injecting..."
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="395dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
