@@ -13,7 +13,8 @@
         android:orientation="vertical"
         android:padding="10dp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="2dp">
+        tools:layout_editor_absoluteY="2dp"
+        android:id="@+id/scrollView2">
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -25,15 +26,6 @@
             android:weightSum="1">
 
             <TextView
-                android:id="@+id/textView3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Step 1: Connection"
-                android:textSize="18sp"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="16dp" />
-
-            <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -41,6 +33,15 @@
                 android:textSize="14sp"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="43dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 1: Connection"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
 
             <EditText
                 android:id="@+id/IPAddressTextBox"
@@ -159,5 +160,27 @@
 
         </LinearLayout>
     </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="left"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <TextView
+            android:id="@+id/krek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="made by valentinbreiz"
+            android:textSize="14sp"
+            android:gravity="left"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="395dp" />
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
