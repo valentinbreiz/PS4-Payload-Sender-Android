@@ -100,7 +100,7 @@ public class Connection extends AppCompatActivity {
     private String ip;
     private int port;
 
-    protected void Connect(View view)
+    public  void Connect(View view)
     {
         final EditText ips = (EditText) findViewById(R.id.IPAddressTextBox);
         final EditText ports = (EditText) findViewById(R.id.PortTextBox);
@@ -129,7 +129,7 @@ public class Connection extends AppCompatActivity {
 
     private static final int PICKFILE_RESULT_CODE = 1;
 
-    protected void Browse(View view)
+    public  void Browse(View view)
     {
         Intent chooseFile;
         Intent intent;
