@@ -22,7 +22,6 @@ public class PayloadSenderApp extends Application {
 
         FontsOverride.setDefaultFont(this, "DEFAULT", "SF/SF-Pro-Display-Light.otf");
         FontsOverride.setDefaultFont(this, "MONOSPACE", "SF/SF-Pro-Display-Light.otf");
-        FontsOverride.setDefaultFont(this, "MONOSPACE", "SF/SF-Pro-Display-Light.otf");
         FontsOverride.setDefaultFont(this, "SERIF", "SF/SF-Pro-Display-Light.otf");
         FontsOverride.setDefaultFont(this, "SANS_SERIF", "SF/SF-Pro-Display-Light.otf");
     }
