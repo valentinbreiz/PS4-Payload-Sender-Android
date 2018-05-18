@@ -18,11 +18,14 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.DialogInterface;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.app.AlertDialog;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;
@@ -74,6 +77,42 @@ public class Connection extends AppCompatActivity {
 
     }
 
+
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+
+        //If you want to add your ActionItem programmatically you can do this too. You do the following:
+        //  new ActionItemBadgeAdder().act(this).menu(menu).title(R.string.sample_2).itemDetails(0, SAMPLE2_ID, 1).showAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS).add(bigStyle, 1);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle item selection
+        switch (item.getItemId()) {
+            case R.id.action_info:
+
+                new AlertDialog.Builder(this)
+                        .setTitle("Infos")
+                        .setMessage(R.string.devs_name)
+                        .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                            }
+                        })
+                        .show();
+
+                return true;
+
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+
     @Override
     public void onRequestPermissionsResult(int requestCode,
                                            String permissions[], int[] grantResults) {
@@ -107,8 +146,8 @@ public class Connection extends AppCompatActivity {
 
         if (ips.getText().toString().equals("") || ports.getText().toString().equals("")) {
             new AlertDialog.Builder(this)
-                    .setTitle("Error!")
-                    .setMessage("You need to type an IP Address or a Port.")
+                    .setTitle(R.string.error)
+                    .setMessage(R.string.enter_port_and_ip)
                     .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
                         }
@@ -136,7 +175,7 @@ public class Connection extends AppCompatActivity {
         chooseFile = new Intent(Intent.ACTION_GET_CONTENT);
         chooseFile.addCategory(Intent.CATEGORY_OPENABLE);
         chooseFile.setType("*/*");
-        intent = Intent.createChooser(chooseFile, "Choose a file");
+        intent = Intent.createChooser(chooseFile, getString(R.string.choose_a_file));
         startActivityForResult(intent, PICKFILE_RESULT_CODE);
     }
 
@@ -181,7 +220,7 @@ public class Connection extends AppCompatActivity {
         }
         else
         {
-            Injecting.setText("Error, file is null >< !!");
+            Injecting.setText(R.string.null_file);
         }
     }
 
@@ -235,12 +274,12 @@ public class Connection extends AppCompatActivity {
 
         @Override
         protected void onProgressUpdate(byte[]... values) {
-            Injecting.setText("Injecting...");
+            Injecting.setText(R.string.injecting);
         }
 
         @Override
         protected void onPostExecute(Void voidd) {
-            Injecting.setText("Done!");
+            Injecting.setText(R.string.done);
         }
     }
 

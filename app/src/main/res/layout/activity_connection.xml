@@ -29,7 +29,7 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="IP Address"
+                android:text="@string/ip_address"
                 android:textSize="14sp"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="43dp" />
@@ -38,7 +38,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Step 1: Connection"
+                android:text="@string/step_1_connection"
                 android:textSize="18sp"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="16dp" />
@@ -76,9 +76,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:onClick="Connect"
-                android:text="Connect"
+                android:text="@string/connect"
                 tools:layout_editor_absoluteX="8dp"
-                tools:layout_editor_absoluteY="163dp" />
+                tools:layout_editor_absoluteY="163dp"
+                android:textColor="#FFF"
+                android:background="@color/colorPrimaryDark"/>
 
             <TextView
                 android:id="@+id/textView11"
@@ -93,7 +95,7 @@
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Step 2: Load Payload"
+                android:text="@string/step_2_load_payload"
                 android:textSize="18sp"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="227dp" />
@@ -103,9 +105,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="Browse"
-                android:text="Browse Payload"
+                android:text="@string/browse_payload"
                 tools:layout_editor_absoluteX="8dp"
-                tools:layout_editor_absoluteY="260dp" />
+                tools:layout_editor_absoluteY="260dp"
+                android:textColor="#FFF"
+                android:background="@color/colorPrimaryDark"/>
 
             <TextView
                 android:id="@+id/textView12"
@@ -120,7 +124,7 @@
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Step 3: Send Payload"
+                android:text="@string/step_3_send_payload"
                 android:textSize="18sp"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="337dp" />
@@ -130,9 +134,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="Send"
-                android:text="Send Payload"
+                android:text="@string/send_payload"
                 tools:layout_editor_absoluteX="8dp"
-                tools:layout_editor_absoluteY="371dp" />
+                tools:layout_editor_absoluteY="371dp"
+                android:textColor="#FFF"
+                android:background="@color/colorPrimaryDark"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -151,7 +157,7 @@
                     android:id="@+id/InjectingLbl"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Injecting..."
+                    android:text="@string/injecting_text"
                     android:textAlignment="center"
                     android:textSize="24sp"
                     tools:layout_editor_absoluteX="8dp"
@@ -175,7 +181,7 @@
             android:id="@+id/krek"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="made by valentinbreiz"
+            android:text="@string/made_by_valentinbreiz"
             android:textSize="14sp"
             android:gravity="left"
             tools:layout_editor_absoluteX="8dp"

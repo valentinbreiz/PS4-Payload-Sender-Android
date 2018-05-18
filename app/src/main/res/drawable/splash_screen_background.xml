@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+
+    <item android:drawable="@color/colorPrimaryDark"/>
+
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:width="120dp"
+            android:height="120dp"
+            android:src="@drawable/seringue"/>
+    </item>
+
+</layer-list>
