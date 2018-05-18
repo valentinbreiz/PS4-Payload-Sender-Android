@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">PS4 Payload Sändere</string>
     <string name="ok">Ok</string>
@@ -17,3 +18,4 @@
     <string name="made_by_valentinbreiz">Skapad av valentinbreiz</string>
     <string name="step_3_send_payload">Steg 3: Skicka Payload</string>
     <string name="devs_name"> Den här applicationen är en del av Mira Project\nDevelopment : @valentinbreiz, @astonbraham\nTester : @kojo9999</string>
+</resources>
