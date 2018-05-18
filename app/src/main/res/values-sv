@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PS4 Payload Sändere</string>
+    <string name="ok">Ok</string>
+    <string name="choose_a_file">Välj en fil</string>
+    <string name="error">FEL!</string>
+    <string name="enter_port_and_ip"> Skriv in Port och IP Adress.</string>
+    <string name="null_file"><![CDATA[FEL, felaktig fil >< !!]]></string>
+    <string name="injecting">Injection pågår...</string>
+    <string name="done">Färdigt!</string>
+    <string name="ip_address">IP Address</string>
+    <string name="step_1_connection">Steg 1: Anslutning</string>
+    <string name="connect">Anslut</string>
+    <string name="step_2_load_payload">Steg 2: Ladda Payload</string>
+    <string name="browse_payload">Bläddra Payload</string>
+    <string name="send_payload">Skicka Payload</string>
+    <string name="injecting_text">Injecerar...</string>
+    <string name="made_by_valentinbreiz">Skapad av valentinbreiz</string>
+    <string name="step_3_send_payload">Steg 3: Skicka Payload</string>
+    <string name="devs_name"> Den här applicationen är en del av Mira Project\nDevelopment : @valentinbreiz, @astonbraham\nTester : @kojo9999</string>
