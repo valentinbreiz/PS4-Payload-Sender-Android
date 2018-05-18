@@ -25,19 +25,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.app.AlertDialog;
 import android.widget.TextView;
-import android.widget.Toast;
-
 import java.io.BufferedInputStream;
-import java.io.ByteArrayInputStream;
 import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.OutputStream;
-import java.io.PrintWriter;
-import java.net.InetAddress;
-import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
@@ -97,8 +90,8 @@ public class Connection extends AppCompatActivity {
             case R.id.action_info:
 
                 new AlertDialog.Builder(this)
-                        .setTitle("Infos")
-                        .setMessage(R.string.devs_name)
+                        .setTitle("PS4 Linux Loader v1.1")
+                        .setMessage(getString(R.string.devs_name))
                         .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                             }
