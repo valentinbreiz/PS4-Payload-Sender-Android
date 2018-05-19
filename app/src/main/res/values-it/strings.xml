@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PS4 Payload Sender</string>
+    <string name="ok">Ok</string>
+    <string name="choose_a_file">Si prega di scegliere un file</string>
+    <string name="error">Errore!</string>
+    <string name="enter_port_and_ip">Si prega di specificare l'indirizzo IP e la porta</string>
+    <string name="null_file"><![CDATA[Errore! File non corretto>< !!]]></string>
+    <string name="injecting">Injection in corso...</string>
+    <string name="done">Finito!</string>
+    <string name="ip_address">Indirizzo IP </string>
+    <string name="step_1_connection">Step 1: Connessione</string>
+    <string name="connect">Sei connesso</string>
+    <string name="step_2_load_payload">Step 2 : Caricamento del Payload</string>
+    <string name="browse_payload">Selezionare il Payload</string>
+    <string name="step_3_send_payload">Step 3: Inviare il Payload</string>
+    <string name="send_payload">Invio del Payload</string>
+    <string name="injecting_text">Injection in corso...</string>
+    <string name="made_by_valentinbreiz">Da @valentinbreiz</string>
+    <string name="devs_name">Questa applicazione è una parte del progetto Mira.\n\n<b>Sviluppatori :</b>\n - @valentinbreiz\n - @astonbraham\n\n<b>Tester :</b>\n - @kojo9999\n\n<b>Traduttore:</b>\n - @theheroGAC</string>
+</resources>
