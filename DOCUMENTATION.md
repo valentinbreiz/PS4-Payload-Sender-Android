@@ -14,6 +14,15 @@ You can now start the exploit on your PS4 and listen for a payload.
 
 Now you can type it in the IP field (and change the port if it's not 9020) and click on connect. Browse for your payload and just send it. The app will reboot automatically after finished.
 
+## Supported languages
+
+- English
+- Arabic
+- French
+- Indonesian
+- Italian
+- Swedish
+
 ## Credits
 
 - Developers:
