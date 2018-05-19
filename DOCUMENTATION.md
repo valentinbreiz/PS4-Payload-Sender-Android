@@ -19,12 +19,13 @@ Now you can type it in the IP field (and change the port if it's not 9020) and c
 - Developers:
 
       - @valentinbreiz
-      - @AstonBraham
+      - @AstonBraham (+ French traduction)
       
 - Translators:
 
-      - @swedishcracker
-      - @theheroGAC
+      - @swedishcracker (Swedish, Arabic)
+      - @theheroGAC (Italian)
+      - @indraaguslesmana (Indonesian)
       
 - Tester:
 
