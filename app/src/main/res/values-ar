@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PS4 Payload Sändere</string>
+    <string name="ok">حسنا</string>
+    <string name="choose_a_file">اختر ملفًا</string>
+    <string name="error">خطأ!</string>
+    <string name="enter_port_and_ip"> دخول الميناء و IP.</string>
+    <string name="null_file"><![CDATA[خطأ ، ملف غير صحيح >< !!]]></string>
+    <string name="injecting">حقن في التقدم...</string>
+    <string name="done">انتهى!</string>
+    <string name="ip_address">عنوان IP</string>
+    <string name="step_1_connection">الخطوة 1: الاتصال</string>
+    <string name="connect">يتصل</string>
+    <string name="step_2_load_payload">الخطوة 2: تحميل Payload</string>
+    <string name="browse_payload">اختر Payload</string>
+    <string name="step_3_send_payload">الخطوة 3: إرسال Payload</string>
+    <string name="send_payload"> أرسل الحمولة</string>
+    <string name="injecting_text">حقن في التقدم...</string>
+    <string name="made_by_valentinbreiz">تم إنشاؤها بواسطة valentinbreiz</string>
+    <string name="devs_name"> هذا التطبيق هو جزء من Mira Project\nDevelopment : @valentinbreiz, @astonbraham\nTester : @kojo9999</string>
+</resources>
