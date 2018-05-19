@@ -4,7 +4,7 @@
     <string name="ok">Ok</string>
     <string name="choose_a_file">Si prega di scegliere un file</string>
     <string name="error">Errore!</string>
-    <string name="enter_port_and_ip">Si prega di specificare l'indirizzo IP e la porta</string>
+    <string name="enter_port_and_ip">Si prega di specificare l\'indirizzo IP e la porta</string>
     <string name="null_file"><![CDATA[Errore! File non corretto>< !!]]></string>
     <string name="injecting">Injection in corso...</string>
     <string name="done">Finito!</string>
@@ -17,5 +17,5 @@
     <string name="send_payload">Invio del Payload</string>
     <string name="injecting_text">Injection in corso...</string>
     <string name="made_by_valentinbreiz">Da @valentinbreiz</string>
-    <string name="devs_name">Questa applicazione è una parte del progetto Mira.\n\n<b>Sviluppatori :</b>\n - @valentinbreiz\n - @astonbraham\n\n<b>Tester :</b>\n - @kojo9999\n\n<b>Traduttore:</b>\n - @theheroGAC</string>
+    <string name="devs_name">Questa applicazione Ã¨ una parte del progetto Mira.\n\n<b>Sviluppatori :</b>\n - @valentinbreiz\n - @astonbraham\n\n<b>Tester :</b>\n - @kojo9999\n\n<b>Traduttore:</b>\n - @theheroGAC</string>
 </resources>
