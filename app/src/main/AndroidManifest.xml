@@ -16,15 +16,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-
-
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashScreen">
 
         </activity>
-
-
 
         <activity android:name=".Connection" android:windowSoftInputMode="adjustPan">
             <intent-filter>

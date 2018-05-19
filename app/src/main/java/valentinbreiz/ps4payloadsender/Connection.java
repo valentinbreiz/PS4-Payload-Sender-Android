@@ -90,7 +90,7 @@ public class Connection extends AppCompatActivity {
             case R.id.action_info:
 
                 new AlertDialog.Builder(this)
-                        .setTitle("PS4 Linux Loader v1.1")
+                        .setTitle("PS4 Linux Loader v1.2")
                         .setMessage(getString(R.string.devs_name))
                         .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {

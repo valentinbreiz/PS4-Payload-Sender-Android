@@ -17,5 +17,5 @@
     <string name="send_payload">Envoyer le Payload</string>
     <string name="injecting_text">Injection en cours...</string>
     <string name="made_by_valentinbreiz">Par @valentinbreiz</string>
-    <string name="devs_name">Cette application est une partie du projet Mira.\nDéveloppement : @valentinbreiz, @astonbraham\nTesteur : @kojo9999\nTraduteur: @toffi40</string>
+    <string name="devs_name">Cette application est une partie du projet Mira.\n\n<b>Développement :</b>\n - @valentinbreiz\n - @astonbraham\n\n<b>Testeur :</b>\n - @kojo9999\n\n<b>Traduteur:</b>\n - @toffi40</string>
 </resources>
