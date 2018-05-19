@@ -13,3 +13,18 @@ To get the IP address of your PS4, go to Settings > Network > View Connection St
 You can now start the exploit on your PS4 and listen for a payload.
 
 Now you can type it in the IP field (and change the port if it's not 9020) and click on connect. Browse for your payload and just send it. The app will reboot automatically after finished.
+
+## Credits
+
+- Developers:
+
+      - @valentinbreiz
+      - @AstonBraham
+      
+- Translator:
+
+      - @swedishcracker
+      
+- Tester:
+
+      - @kojo9999
