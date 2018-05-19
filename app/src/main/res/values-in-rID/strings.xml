@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PS4 Payload Sender</string>
+    <string name="ok">Ok</string>
+    <string name="choose_a_file">Pilih file</string>
+    <string name="error">Terjadi kesalahan!</string>
+    <string name="enter_port_and_ip">Ketik Alamat IP atau Port</string>
+    <string name="null_file"><![CDATA[Terjadi kesalahan, file kosong >< !!]]></string>
+    <string name="injecting">Injecting...</string>
+    <string name="done">Selesai!</string>
+    <string name="ip_address">Alamat IP</string>
+    <string name="step_1_connection">Langkah 1: Koneksi</string>
+    <string name="connect">Tersambung</string>
+    <string name="step_2_load_payload">Meload Payload</string>
+    <string name="browse_payload">Cari Payload</string>
+    <string name="send_payload">Kirim Payload</string>
+    <string name="injecting_text">Injecting...</string>
+    <string name="made_by_valentinbreiz">dibuat oleh valentinbreiz</string>
+    <string name="step_3_send_payload">Langkah  3: Kirim Payload</string>
+    <string name="devs_name">Aplikasi ini adalah bagian dari Mira project.\n\nDevelopment:\n - @valentinbreiz\n - @astonbraham\n\nTester:\n - @kojo9999\n\nTranslator:\n - @toffi40\n - @theheroGAC\n - @indraaguslesmana</string>
+</resources>
