@@ -17,7 +17,6 @@
     <string name="injecting_text">Внедрение...</string>
     <string name="made_by_valentinbreiz">Сделано @valentinbreiz</string>
     <string name="step_3_send_payload">Шаг 3: Отправка Payload</string>
-    <string name="devs_name">Это приложение является частью Mira project.\n\nРазработка:\n - @valentinbreiz\n -
-        @astonbraham\n\nТестирование:\n - @kojo9999\n\nTranslator:\n - @toffi40\n - @theheroGAC
+    <string name="devs_name">Это приложение является частью Mira project.\n\nРазработка:\n - @valentinbreiz\n - @astonbraham\n\nТестирование:\n - @kojo9999\n\nTranslator:\n - @toffi40\n - @theheroGAC\n - @InExtremo
     </string>
 </resources>
