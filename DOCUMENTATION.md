@@ -23,6 +23,7 @@ Now you can type it in the IP field (and change the port if it's not 9020) and c
 - Italian
 - Swedish
 - Russian
+- Portuguese
 
 ## Credits
 
@@ -37,6 +38,7 @@ Now you can type it in the IP field (and change the port if it's not 9020) and c
       - @theheroGAC (Italian)
       - @indraaguslesmana (Indonesian)
       - @InExtremo (Russian)
+      - @helloitu (Portuguese)
       
 - Tester:
 
