@@ -5,7 +5,7 @@
     <string name="choose_a_file">Veuillez choisir un fichier</string>
     <string name="error">Erreur!</string>
     <string name="enter_port_and_ip">Veuillez préciser l\'adresse IP et le port</string>
-    <string name="null_file"><![CDATA[Erreur! Fichier incorrec>< !!]]></string>
+    <string name="null_file"><![CDATA[Erreur! Fichier incorrect>< !!]]></string>
     <string name="injecting">Injection en cours...</string>
     <string name="done">Terminé!</string>
     <string name="ip_address">Adresse IP </string>
