@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PS4 Payload Sender</string>
+    <string name="ok">OK</string>
+    <string name="choose_a_file">ファイルを選択</string>
+    <string name="error">エラー!</string>
+    <string name="enter_port_and_ip">有効なIPアドレスとPortを入力してください。</string>
+    <string name="null_file"><![CDATA[エラー、ファイルはnullです!! ><]]></string>
+    <string name="injecting">インジェクト中...</string>
+    <string name="done">完了!</string>
+    <string name="ip_address">IPアドレス</string>
+    <string name="step_1_connection">ステップ 1: 接続</string>
+    <string name="connect">接続</string>
+    <string name="step_2_load_payload">ステップ 2: ペイロードの読み込み</string>
+    <string name="browse_payload">ペイロードを参照</string>
+    <string name="send_payload">ペイロードを送信</string>
+    <string name="injecting_text">インジェクトを実行しています...</string>
+    <string name="made_by_valentinbreiz">made by valentinbreiz</string>
+    <string name="step_3_send_payload">ステップ 3: ペイロードの送信</string>
+    <string name="devs_name">このアプリはMiraプロジェクトの一部です。\n\n開発者:\n - @valentinbreiz\n - @astonbraham\n\nテスター:\n - @kojo9999\n\n翻訳者:\n - @ot_inc</string>
+
+
+</resources>
