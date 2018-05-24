@@ -25,6 +25,7 @@ Now you can type it in the IP field (and change the port if it's not 9020) and c
 - Russian
 - Portuguese
 - Japanese
+- Simplified Chinese
 
 ## Credits
 
@@ -41,6 +42,7 @@ Now you can type it in the IP field (and change the port if it's not 9020) and c
       - @InExtremo (Russian)
       - @helloitu (Portuguese)
       - @reindex-ot (Japanese)
+      - @liududu (Simplified Chinese)
       
 - Tester:
 
