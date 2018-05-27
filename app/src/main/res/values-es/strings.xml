@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">PS4 Payload Sender</string>
     <string name="ok">Aceptar</string>
@@ -16,7 +17,5 @@
     <string name="injecting_text">Inyectando...</string>
     <string name="made_by_valentinbreiz">Hecho por valentinbreiz</string>
     <string name="step_3_send_payload">Paso 3: Enviar Payload</string>
-    <string name="devs_name">Esta aplicación es parte del proyecto Mira.\n\nDesarrollo:\n - @valentinbreiz\n - @astonbraham\n\nTester:\n - @kojo9999\n\nTraductores:\n - @toffi40\n - @theheroGAC\n - @indraaguslesmana\n - @inExtremo\n - @helloitu\n - @reindex-ot\n - @liududu\n - @Darkmet98</string>
-
-
+    <string name="devs_name">Esta aplicación es parte del proyecto Mira.\n\nDesarrollo:\n - @valentinbreiz\n - @astonbraham\n\nTester:\n - @kojo9999\n\nTraductores:\n - @toffi40\n - @theheroGAC\n - @indraaguslesmana\n - @inExtremo\n - @helloitu\n - @ot_inc\n - @liududu\n - @Darkmet98</string>
 </resources>

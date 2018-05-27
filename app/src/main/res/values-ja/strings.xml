@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">PS4 Payload Sender</string>
     <string name="ok">OK</string>
@@ -16,5 +17,5 @@
     <string name="injecting_text">インジェクトを実行しています...</string>
     <string name="made_by_valentinbreiz">made by valentinbreiz</string>
     <string name="step_3_send_payload">ステップ 3: ペイロードの送信</string>
-    <string name="devs_name">このアプリはMiraプロジェクトの一部です。\n\n開発者:\n - @valentinbreiz\n - @astonbraham\n\nテスター:\n - @kojo9999\n\n翻訳者:\n - @ot_inc</string>
+    <string name="devs_name">このアプリはMiraプロジェクトの一部です。\n\n開発者:\n - @valentinbreiz\n - @astonbraham\n\nテスター:\n - @kojo9999\n\n翻訳者:\n - @toffi40\n - @theheroGAC\n - @indraaguslesmana\n - @inExtremo\n - @helloitu\n - @ot_inc\n - @liududu\n - @Darkmet98\n - @FlatracerMOD</string>
 </resources>
