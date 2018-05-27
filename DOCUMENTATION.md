@@ -27,6 +27,7 @@ Now you can type it in the IP field (and change the port if it's not 9020) and c
 - Japanese
 - Simplified Chinese
 - Spanish
+- German
 
 ## Credits
 
@@ -42,9 +43,10 @@ Now you can type it in the IP field (and change the port if it's not 9020) and c
       - @indraaguslesmana (Indonesian)
       - @InExtremo (Russian)
       - @helloitu (Portuguese)
-      - @reindex-ot (Japanese)
+      - @ot_inc (Japanese)
       - @liududu (Simplified Chinese)
 	  - @Darkmet98 (Spanish)
+	  - @FlatracerMOD (German)
       
 - Tester:
 

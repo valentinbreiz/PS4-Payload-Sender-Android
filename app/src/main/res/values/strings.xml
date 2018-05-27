@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">PS4 Payload Sender</string>
     <string name="ok">Ok</string>
@@ -16,7 +17,5 @@
     <string name="injecting_text">Injecting...</string>
     <string name="made_by_valentinbreiz">made by valentinbreiz</string>
     <string name="step_3_send_payload">Step 3: Send Payload</string>
-    <string name="devs_name">This application is a part of the Mira project.\n\nDevelopment:\n - @valentinbreiz\n - @astonbraham\n\nTester:\n - @kojo9999\n\nTranslator:\n - @toffi40\n - @theheroGAC\n - @indraaguslesmana\n - @inExtremo\n - @helloitu\n - @reindex-ot\n - @liududu\n - @Darkmet98</string>
-
-
+    <string name="devs_name">This application is a part of the Mira project.\n\nDevelopment:\n - @valentinbreiz\n - @astonbraham\n\nTester:\n - @kojo9999\n\nTranslator:\n - @toffi40\n - @theheroGAC\n - @indraaguslesmana\n - @inExtremo\n - @helloitu\n - @ot_inc\n - @liududu\n - @Darkmet98\n - @FlatracerMOD</string>
 </resources>

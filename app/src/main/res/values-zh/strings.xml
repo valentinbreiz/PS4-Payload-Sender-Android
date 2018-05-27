@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">PS4 Payload Sender</string>
     <string name="ok">Ok</string>
     <string name="choose_a_file">请选择文件</string>
@@ -17,6 +17,5 @@
     <string name="injecting_text">正在注入...</string>
     <string name="made_by_valentinbreiz">valentinbreiz制作</string>
     <string name="step_3_send_payload">步骤 3: 发送 Payload</string>
-    <string name="devs_name">本程序是Mira Project的一部分\n\n开发者:\n - @valentinbreiz\n - @astonbraham\n\n测试人员:\n - @kojo9999\n\n翻译:\n - @liududu</string>
-
+    <string name="devs_name">本程序是Mira Project的一部分\n\n开发者:\n - @valentinbreiz\n - @astonbraham\n\n测试人员:\n - @kojo9999\n\n翻译:\n - @toffi40\n - @theheroGAC\n - @indraaguslesmana\n - @inExtremo\n - @helloitu\n - @ot_inc\n - @liududu\n - @Darkmet98\n - @FlatracerMOD</string>
 </resources>
