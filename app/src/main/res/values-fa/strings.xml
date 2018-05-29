@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ارسال کننده پیلود پلی استیشن 4</string>
+    <string name="ok">قبول</string>
+    <string name="choose_a_file">انتخاب فایل پیلود</string>
+    <string name="error">!خطا</string>
+    <string name="enter_port_and_ip">شما باید یک آیپی و پورت وارد کنید</string>
+    <string name="null_file"><![CDATA[Error, file is null >< !!]]></string>
+    <string name="injecting">...در حال ارسال پیلود</string>
+    <string name="done">!انجام شد</string>
+    <string name="ip_address">آدرس ایپی کنسول:</string>
+    <string name="step_1_connection">مرحله نخست: اتصال به کنسول</string>
+    <string name="connect">اتصال</string>
+    <string name="step_2_load_payload">مرحله دوم: انتخاب پیلود</string>
+    <string name="browse_payload">انتخاب مسیر پیلود</string>
+    <string name="send_payload">ارسال پیلود</string>
+    <string name="injecting_text">درحال اینجکت</string>
+    <string name="made_by_valentinbreiz">توسعه توسط valentinbreiz</string>
+    <string name="step_3_send_payload">مرحله سوم: ارسال پیلود</string>
+    <string name="devs_name">این برنامه جزوی از پروژه "میرا" میباشد.\n\nDevelopment:\n - @valentinbreiz\n - @astonbraham\n\nTester:\n - @kojo9999\n\nTranslator:\n - @toffi40\n - @theheroGAC\n - @indraaguslesmana\n - @inExtremo\n - @helloitu\n - @ot_inc\n - @liududu\n - @Darkmet98\n - @FlatracerMOD</string>
+</resources>
