@@ -28,6 +28,7 @@ Now you can type it in the IP field (and change the port if it's not 9020) and c
 - Simplified Chinese
 - Spanish
 - German
+- Persian
 
 ## Credits
 
@@ -47,6 +48,7 @@ Now you can type it in the IP field (and change the port if it's not 9020) and c
       - @liududu (Simplified Chinese)
 	  - @Darkmet98 (Spanish)
 	  - @FlatracerMOD (German)
+	  - @devious.di66 (Persian)
       
 - Tester:
 
